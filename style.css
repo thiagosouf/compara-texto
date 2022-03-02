@@ -1,0 +1,47 @@
+.area-total{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+    background-size: 100%;
+    padding: 0 50px 0 15px;
+}
+.area-original, .area-edicao{
+    font-size: 40px;
+}
+    
+
+#original{
+    font-size: 18px;
+}
+
+#redigido{
+font-size: 15px;
+}
+
+.botao{
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    border-color: black;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+.botao:hover{
+    background-color: bisque;
+}
+
+h3{
+    margin: 10px;
+    font-size: 18px;
+}
+
+strong{
+    font-weight: 700;
+    color: blue;
+}
+
+small{
+    font-size: 700;
+    color: red;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="area-total">
+        <div class="area-original">
+            <div>
+                <h1>Texto Original</h1>
+                <textarea name="texto-original" id="original" cols="60" rows="24"></textarea>
+            </div>
+            
+            
+            <div>
+                <h1></h1>
+            </div>
+        </div>
+        <div class="direita">
+            <div class="area-edicao">
+                <h1>Texto Redigido</h1>
+                <textarea name="texto-original" id="redigido" cols="60" rows="10"></textarea>
+            </div>
+            <div>
+                <div>
+                    <button class="botao" onclick="verificarPalavra()">Verificar Compatibilidade</button>
+                    <button class="botao" onclick="limparCache()">Limpar Cache</button>
+                </div>
+                <h3>Resultado: </h3>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
